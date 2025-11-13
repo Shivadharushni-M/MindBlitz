@@ -54,10 +54,10 @@ export default function App() {
 						initial={{ opacity: 0, y: -20 }}
 						animate={{ opacity: 1, y: 0 }}
 					>
-						<h1 style={{ fontFamily: "'Playfair Display', serif" }} 
-							className="text-4xl sm:text-5xl font-bold tracking-tight text-[#4A5568] dark:text-white">
-							MindBlitz
-						</h1>
+					<h1 style={{ fontFamily: "'Playfair Display', serif" }} 
+						className="text-4xl sm:text-5xl font-bold tracking-tight text-black dark:text-white">
+						MindBlitz
+					</h1>
 						<Badge variant="premium">
 							<span className="text-xs font-bold px-2 text-gray-800 dark:text-white">✨ AI Powered</span>
 						</Badge>
