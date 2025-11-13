@@ -30,7 +30,7 @@ html, body, #root {
 	content: '';
 	position: fixed;
 	inset: 0;
-	background: rgba(245, 245, 245, 0.85);
+	background: rgba(200, 200, 200, 0.70);
 	z-index: 0;
 }
 
@@ -44,7 +44,7 @@ html, body, #root {
 	z-index: 1;
 	border-radius: 1rem;
 	padding: 1.5rem;
-	background: rgba(255, 255, 255, 0.90);
+	background: rgba(255, 255, 255, 0.70);
 	backdrop-filter: blur(20px);
 	border: 1px solid rgba(192, 192, 192, 0.4);
 	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
@@ -68,7 +68,7 @@ html, body, #root {
 	z-index: 1;
 	border-radius: 1rem;
 	padding: 1.5rem;
-	background: rgba(255, 255, 255, 0.90);
+	background: rgba(255, 255, 255, 0.75);
 	backdrop-filter: blur(20px);
 	border: 1px solid rgba(192, 192, 192, 0.5);
 	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
@@ -171,7 +171,7 @@ html, body, #root {
 .quiz-question-card {
 	border-radius: 0.75rem;
 	padding: 1.25rem;
-	background: rgba(255, 255, 255, 0.90);
+	background: rgba(255, 255, 255, 0.70);
 	border: 1px solid var(--silver);
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 	color: rgb(31, 41, 55);
@@ -274,11 +274,19 @@ html, body, #root {
 	border: 1px solid rgba(192, 192, 192, 0.3);
 }
 
+.dark .study-tip-card {
+	color: rgb(31, 41, 55);
+}
+
 .fun-fact-card {
 	padding: 1rem;
 	border-radius: 0.5rem;
 	background: linear-gradient(135deg, rgba(232, 232, 232, 0.3), rgba(255, 255, 255, 0.85));
 	border: 1px solid var(--silver);
+}
+
+.dark .fun-fact-card {
+	color: rgb(31, 41, 55);
 }
 
 .confetti-container {
