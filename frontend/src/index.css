@@ -30,7 +30,7 @@ html, body, #root {
 	content: '';
 	position: fixed;
 	inset: 0;
-	background: rgba(255, 255, 255, 0.55);
+	background: rgba(245, 245, 245, 0.85);
 	z-index: 0;
 }
 
@@ -44,11 +44,12 @@ html, body, #root {
 	z-index: 1;
 	border-radius: 1rem;
 	padding: 1.5rem;
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.90);
 	backdrop-filter: blur(20px);
 	border: 1px solid rgba(192, 192, 192, 0.4);
 	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 	transition: all 0.3s ease;
+	color: rgb(31, 41, 55);
 }
 
 .dark .glass-card {
@@ -67,15 +68,17 @@ html, body, #root {
 	z-index: 1;
 	border-radius: 1rem;
 	padding: 1.5rem;
-	background: rgba(255, 255, 255, 0.80);
+	background: rgba(255, 255, 255, 0.90);
 	backdrop-filter: blur(20px);
 	border: 1px solid rgba(192, 192, 192, 0.5);
 	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 	transition: all 0.3s ease;
+	color: rgb(31, 41, 55);
 }
 
 .dark .glass-card-input {
 	background: rgba(20, 25, 30, 0.80);
+	color: rgb(243, 244, 246);
 }
 
 /* BUTTONS */
@@ -168,13 +171,15 @@ html, body, #root {
 .quiz-question-card {
 	border-radius: 0.75rem;
 	padding: 1.25rem;
-	background: rgba(255, 255, 255, 0.78);
+	background: rgba(255, 255, 255, 0.90);
 	border: 1px solid var(--silver);
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+	color: rgb(31, 41, 55);
 }
 
 .dark .quiz-question-card {
 	background: rgba(31, 41, 55, 0.70);
+	color: rgb(243, 244, 246);
 }
 
 .quiz-option {

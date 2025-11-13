@@ -265,16 +265,16 @@ Note: Tests mock the AI response but use real Wikipedia.
 
 ### Live Deployment URLs
 
-**Frontend (Vercel):**
-- Production: `https://your-app-name.vercel.app`
-- Replace with your actual Vercel deployment URL
+**🌐 Frontend (Render):**
+- Production: https://mindblitz.onrender.com
+- Access the full interactive study assistant
 
-**Backend (Render):**
-- API Base: `https://your-backend-name.onrender.com/api`
-- Health Check: `https://your-backend-name.onrender.com/api/health`
-- Replace with your actual Render deployment URL
+**⚙️ Backend API (Render):**
+- API Base: https://mindblitz-backend.onrender.com/api
+- Health Check: https://mindblitz-backend.onrender.com/api/health
+- Study Pack Endpoint: `POST https://mindblitz-backend.onrender.com/api/study`
 
-**Note:** After deploying, update the frontend's `VITE_API_URL` environment variable to point to your deployed backend URL.
+**✅ Status:** Both deployments are live and operational!
 
 ---
 
