@@ -1,6 +1,14 @@
-# MindBlitz- Smart Study Assistant
+# MindBlitz - Smart Study Assistant
 
 AI-powered study companion that transforms any topic into an interactive learning experience.
+
+## 🚀 Live Demo
+
+**🌐 Try it now:** [https://mindblitz.onrender.com](https://mindblitz.onrender.com)
+
+**⚙️ API Backend:** [https://mindblitz-backend.onrender.com/api](https://mindblitz-backend.onrender.com/api)
+
+---
 
 ## Overview
 
