@@ -1,4 +1,4 @@
-# Smart Study Assistant 🧠✨
+# MindBlitz- Smart Study Assistant
 
 AI-powered study companion that transforms any topic into an interactive learning experience.
 
