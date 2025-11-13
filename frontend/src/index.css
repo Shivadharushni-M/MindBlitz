@@ -276,7 +276,8 @@ html, body, #root {
 }
 
 .dark .study-tip-card {
-	color: rgb(31, 41, 55);
+	background: rgba(70, 70, 70, 0.85);
+	color: rgb(255, 255, 255);
 }
 
 .fun-fact-card {
@@ -288,7 +289,8 @@ html, body, #root {
 }
 
 .dark .fun-fact-card {
-	color: rgb(31, 41, 55);
+	background: rgba(70, 70, 70, 0.85);
+	color: rgb(255, 255, 255);
 }
 
 .confetti-container {
