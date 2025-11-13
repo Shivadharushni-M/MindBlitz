@@ -204,7 +204,7 @@ html, body, #root {
 
 .quiz-option-default:hover {
 	border-color: #A8A8A8;
-	background: white;
+	background: rgba(200, 200, 200, 0.95);
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
